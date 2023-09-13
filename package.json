@@ -7,8 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "prettier:check": "npx prettier --check .",
         "prettier:fix": "npx prettier --write .",
-        "lint": "npx eslint .",
-        "prepare": "husky install"
+        "lint": "npx eslint ."
     },
     "author": "James Wright",
     "repository": {
