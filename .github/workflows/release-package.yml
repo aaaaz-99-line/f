@@ -5,6 +5,9 @@ on:
         workflows: ["Build bump tag"]
         types:
             - completed
+
+permissions: write-all
+
 jobs:
     publish-gpr:
         runs-on: ubuntu-latest
